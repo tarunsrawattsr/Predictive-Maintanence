@@ -1,0 +1,15 @@
+# Downloaded dataset (train.py downloads it again when needed)
+data/*.txt
+
+# Trained model and live simulator database
+# (results/ IS committed on purpose, so the Model page works
+#  and visitors can see the model's scores without training)
+model.pkl
+live_data.db
+
+# Python cache, tests cache, and virtual environments
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
